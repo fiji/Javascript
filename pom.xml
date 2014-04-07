@@ -34,6 +34,13 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/Javascript</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Javascript</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/Javascript</url>
+	</scm>
+
 	<repositories>
 		<!-- NB: for project parent, in case of partial checkout -->
 		<repository>
