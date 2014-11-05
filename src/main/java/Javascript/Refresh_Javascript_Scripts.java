@@ -1,18 +1,19 @@
 /** Albert Cardona 2008. Released under General Public License. */
 package Javascript;
 
+import common.RefreshScripts;
+
 import ij.IJ;
 
-import common.RefreshScripts;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ImporterTopLevel;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.io.File;
+
+import org.mozilla.javascript.Context;
+import org.mozilla.javascript.Scriptable;
 
 public class Refresh_Javascript_Scripts extends RefreshScripts {
 	@Override
